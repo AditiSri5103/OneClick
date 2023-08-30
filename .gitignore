@@ -1,0 +1,5 @@
+node_modules
+theory.txt
+.parcel-cache
+dist
+*.log

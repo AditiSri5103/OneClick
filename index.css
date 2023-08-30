@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* width: 100vw; */
+    /* height: 100vh;    */
+}
+
+#root{
+    border: 2px solid rgb(255, 38, 38);
+    width: 100%;
+    height: 100%;
+
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    /* height: 10%; */
+    border: 2px solid black;
+}
+.logo{
+    height: 6.0rem;
+    padding: 5px;
+}
+.nav-items > ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+}
+.list{
+    display: flex;
+    border: 2px solid blue;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+}
+.nav-items > ul >li{
+    padding-right: 15px;
+    
+}
+
+.search-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+input{
+    padding: 4px;
+    margin: 5px;
+    border-left: none;
+    border-top: none;
+}
+input:focus{
+    border-bottom: #000000;
+    background-color: transparent;
+    border: 0px solid;
+    color: #040404;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    outline: none;
+    width: 200px;
+}
+.search-btn{
+    /* width: auto; */
+    padding: 6px;
+    color: aliceblue;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width:auto;
+    list-style: none;
+    border: 3px solid rgb(164, 162, 162);
+
+}
+.card{
+    /* width: 100%; */
+    padding: 5px;
+    border: 1px solid rgb(30, 30, 30);
+    margin: 6px;
+    border-radius: 20px;
+    box-shadow: 4px 5px #888888;
+    
+}
+.card:hover{
+    box-shadow: 7px 7px #919191;
+    transition: all 0.2s ease-in;
+    transform: scale(0.8);
+
+}
+.main-page-list{
+    /* width: 100%; */
+
+   
+}
+.card >img{
+    width: 100%;
+    padding: 3px;
+    border-radius: 20px;
+    background-position: center;
+    width: 450px;
+    
+}
+.card-info{
+    padding: 4px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content:center;
+}
+
+.shimmer-card{
+    width: 33%;
+    height: 200px;
+    padding: 15px;
+    margin: 1px;
+    background-color: rgb(209, 209, 209);
+}
+
+.about-us{
+    height: 50px;
+}
